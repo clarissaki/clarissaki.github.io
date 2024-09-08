@@ -1,0 +1,99 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
+    font-size: 1.75vw;
+    background-color: #2E294E;
+    color: aliceblue;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #011638;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo {
+    margin: 5px;
+    padding: 5px;
+    max-width: 15%;
+    height: auto;
+}
+
+
+#nav-ul {
+    list-style-type: none;
+    display: flex;
+}
+
+#nav-ul > li {
+    margin: 5px;
+    padding: 5px;
+}
+
+.navbutton {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#homephoto {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+main section {
+    width: 70%;
+    margin: auto;
+}
+
+main h2 {
+    color: white;
+    font-family: "Fraunces", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.section-image {
+    padding: 2.5%;
+    align-content: center;
+}
+
+
+#about {
+    display: flex;
+    padding: 2.5%;
+}
+
+#art {
+    display: flex;
+    padding: 2.5%;
+}
+
+#crochet {
+    display: flex;
+    padding: 2.5%;
+}
+
+#contact {
+    display: flex;
+    padding: 2.5%;
+}
+
+#newsletter {
+    width: 70%;
+    margin: auto;
+}
+
+body > footer {
+    background-color: #011638;
+    color: white;
+    height: 10vh;
+    align-content: center;
+}
+
+body > footer > p {
+    margin: 0px;
+}
