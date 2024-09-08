@@ -1,3 +1,7 @@
+html {
+    scroll-padding-top: 100px;
+}
+
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0px;
@@ -67,14 +71,29 @@ main h2 {
     padding: 2.5%;
 }
 
+#about-pfp {
+    width: 30vw;
+    height: auto;
+}
+
 #art {
     display: flex;
     padding: 2.5%;
 }
 
+#art-pfp {
+    width: 30vw;
+    height: auto;
+}
+
 #crochet {
     display: flex;
     padding: 2.5%;
+}
+
+#crochet-pfp {
+    width: 30vw;
+    height: auto;
 }
 
 #contact {
