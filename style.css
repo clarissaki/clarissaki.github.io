@@ -1,5 +1,5 @@
 html {
-    scroll-padding-top: 100px;
+    scroll-padding-top: 9vh;
 }
 
 body {
@@ -129,8 +129,8 @@ main h2 {
 .overlay-text {
     position: absolute;
     color: #2e294e81;
-    font-size: 2.5vw;
-    top: 75%;
+    font-size: 2vw;
+    top: 80%;
     left: 5%;
 }
 
