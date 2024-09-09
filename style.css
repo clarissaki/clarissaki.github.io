@@ -55,6 +55,11 @@ main section {
     margin: auto;
 }
 
+main article {
+    width: 70%;
+    margin: auto;
+}
+
 main h2 {
     color: white;
     font-family: "Fraunces", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -76,6 +81,7 @@ main h2 {
     height: auto;
 }
 
+/* ART section */
 #art {
     display: flex;
     padding: 2.5%;
@@ -86,6 +92,17 @@ main h2 {
     height: auto;
 }
 
+.artworks {
+    width: 100%;
+    height: auto;
+}
+
+.artwork-text {
+    margin-top: 0.5vh;
+    margin-bottom: 5vh;
+}
+
+/* CROCHET section */
 #crochet {
     display: flex;
     padding: 2.5%;
@@ -96,6 +113,28 @@ main h2 {
     height: auto;
 }
 
+.image-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    padding: 2.5%;
+}
+
+.overlay-text {
+    position: absolute;
+    color: #2e294e81;
+    font-size: 2.5vw;
+    top: 75%;
+    left: 5%;
+}
+
+/* CONTACT section */
 #contact {
     display: flex;
     padding: 2.5%;
